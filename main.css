@@ -1,12 +1,14 @@
 .main {
   text-align: center;
-  font-family: 'Sarabun', sans-serif;
+  font-family: "Sarabun", sans-serif;
 }
 img {
   width: 80%;
   height: auto;
 }
-body {margin:0;}
+body {
+  margin: 0;
+}
 
 ul {
   list-style-type: none;
@@ -21,7 +23,7 @@ ul {
 
 li {
   float: left;
-  font-family: 'Sarabun', sans-serif;
+  font-family: "Sarabun", sans-serif;
 }
 
 li a {
@@ -42,6 +44,6 @@ li a:hover:not(.active) {
 
 .docs {
   text-align: center;
-  font-family: 'Sarabun', sans-serif;
+  font-family: "Sarabun", sans-serif;
   overflow: hidden;
 }
