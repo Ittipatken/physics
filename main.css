@@ -1,6 +1,7 @@
 .main {
   text-align: center;
   font-family: "Sarabun", sans-serif;
+  z-index: 1;
 }
 img {
   width: 80%;
@@ -19,11 +20,13 @@ ul {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 2;
 }
 
 li {
   float: left;
   font-family: "Sarabun", sans-serif;
+  z-index: 2;
 }
 
 li a {
@@ -32,18 +35,20 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  z-index: 2;
 }
 
 li a:hover:not(.active) {
   background-color: #111;
+  z-index: 2;
 }
 
 .active {
   background-color: #4d79ff;
+  z-index: 2;
 }
 
 .docs {
   text-align: center;
   font-family: "Sarabun", sans-serif;
-  overflow: hidden;
 }
