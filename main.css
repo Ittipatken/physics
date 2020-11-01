@@ -98,3 +98,6 @@ li a:hover:not(.active) {
 .card-header {
   font-family: "Sarabun", sans-serif;
 }
+.cc {
+  width: 15%;
+}
